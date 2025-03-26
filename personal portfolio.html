@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaynish vala | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+      <div class="text-2xl font-extrabold">Jaynish vala</div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-indigo-600">Home</a></li>
+          <li><a href="#about" class="hover:text-indigo-600">About</a></li>
+          <li><a href="#projects" class="hover:text-indigo-600">Projects</a></li>
+          <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="home" class="bg-indigo-600 text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
+      <p class="text-xl mb-8">I am an intern in cyber security building creative solutions that matter.</p>
+      <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-semibold hover:bg-gray-200 transition">
+        Get In Touch
+      </a>
+    </div>
+  </section>
+
+
+  <section id="about" class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-10">About Me</h2>
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="mb-6">I am a web developer with a strong foundation in modern web technologies such as HTML5, CSS3, and JavaScript. I design and develop beautiful, responsive websites that provide a seamless user experience.</p>
+        <p>My objective is to blend form and function, and to continuously learn and evolve with the latest trends in technology. </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="bg-gray-200 py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-10">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="" alt="Project One" class="w-full">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-2">Project One</h3>
+            <p class="text-gray-700 mb-4">
+              A brief description highlighting the features, technologies used, and the impact of the project.
+            </p>
+            <a href="#" class="text-indigo-600 hover:underline">View Details</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="" alt="Project Two" class="w-full">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-2">Project Two</h3>
+            <p class="text-gray-700 mb-4">
+              An overview of the project's objectives, challenges faced, and the technological solutions implemented.
+            </p>
+            <a href="#" class="text-indigo-600 hover:underline">View Details</a>
+          </div>
+        </div>
+  </section>
+
+  <section id="contact" class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-10">Contact Me</h2>
+      <div class="max-w-xl mx-auto">
+        <form action="#" method="POST" class="bg-white p-8 rounded-lg shadow-md">
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 mb-2">Name</label>
+            <input type="text" id="name" name="name" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 mb-2">Email</label>
+            <input type="email" id="email" name="email" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white py-6 shadow-inner">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-gray-600">&copy; 2024 Jaynish vala. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
